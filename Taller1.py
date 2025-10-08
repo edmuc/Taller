@@ -9,6 +9,8 @@ def cuadrado_positivo():
         else:
             print("Número negativo, fin del programa.")
 
+cuadrado_positivo()
+
 # 2
 def xy():
     n = int(input("Ingrese un número entero positivo: "))
@@ -18,6 +20,7 @@ def xy():
         else:
             n = 3 * n + 1
         print(n, end=" ")
+xy()
 
 # 3
 def poblacion():
@@ -27,9 +30,9 @@ def poblacion():
     while B <= A:
         A = A + (A * 2 / 100)
         B = B + (B * 3 / 100)
-        anio = anio + 1
+        año = año + 1
     print("El país B superará al país A en el año", año)
-
+poblacion()
 
 #PAGINA 4
 
@@ -39,6 +42,7 @@ def epsilon_maquina():
         epsilon = epsilon / 2.0
     epsilon = epsilon * 2.0
     print("El épsilon de la máquina es:", epsilon)
+epsilon_maquina()
 
 #PAGINA 5
 
